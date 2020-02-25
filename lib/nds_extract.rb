@@ -35,5 +35,9 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-pp directors_database
+  total = 0
+  source.each do |director|
+    total += gross_for_director(director)
+  end
+  total
 end
