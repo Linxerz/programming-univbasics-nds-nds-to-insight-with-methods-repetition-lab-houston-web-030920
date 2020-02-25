@@ -31,7 +31,7 @@ def list_of_directors(source)
     director_list << director_index[:name]
   end
   director_list
-    
+
 end
 
 def total_gross(source)
@@ -45,5 +45,3 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 end
-
-
